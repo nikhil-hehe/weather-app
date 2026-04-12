@@ -35,23 +35,7 @@ A professional-grade, responsive Weather Web Application built with PHP, JavaScr
 
 ---
 
-### Option 1: Automated Installation (Fedora / RHEL)
-
-If you are running Fedora Linux, you can use the provided bash deployment script to install all dependencies and set up the project automatically.
-
-1. Create a new file named `setup_weather_app.sh` and paste the deployment script into it.
-2. Make the script executable and run it with root privileges:
-
-```bash
-chmod +x setup_weather_app.sh
-sudo ./setup_weather_app.sh
-```
-
-The script will automatically install Apache and PHP, configure the firewall, set SELinux permissions, and deploy the application to `/var/www/html/weather-app`.
-
----
-
-### Option 2: Manual Installation (XAMPP / MAMP / Any OS)
+### Installation (XAMPP / MAMP / Any OS)
 
 1. Start your local web server (e.g., start the Apache service in XAMPP/MAMP).
 2. Create a folder named `weather-app` inside your server's public web directory:
