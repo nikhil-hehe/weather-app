@@ -77,4 +77,4 @@ define('OWM_API_KEY', 'your_actual_api_key_string_here');
 http://localhost/weather-app/
 ```
 
-3. Enter a city name (e.g., `Ghaziabad`) in the search bar and click **Search**.
+3. Enter a city name (e.g., `New Delhi`) in the search bar and click **Search**.
